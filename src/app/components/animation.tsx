@@ -5,11 +5,11 @@ const Animation = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Awais',
+        'Hira',
         1000, 
-        'Web developer',
+        'Brand Designer',
         1000,
-        'Mobile App developer',
+        'UI/UX Designer',
         1000,
         'Web Designer',
         1000

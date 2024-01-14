@@ -20,9 +20,9 @@ const config: Config = {
 
     colors: {
       ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
-      third: colors.blue,
+      primary: "#39FF14",
+      secondary: "#39FF14",
+      third: "#39FF14",
     },
   },
   plugins: [],

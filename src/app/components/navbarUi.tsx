@@ -40,7 +40,7 @@ function NavbarUi() {
           className="flex items-center text-1xl md:text-2xl text-white   "
         >
       
-        <p className="ml-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-700">Awais Tahir</p>
+        <p className="ml-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">Hira Azhar</p>
         </Link>
 
         <div className="mobile-menu block md:hidden">

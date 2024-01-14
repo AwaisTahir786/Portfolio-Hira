@@ -11,12 +11,13 @@ const Tabdata:any = [
     id:"skills",
     content: (
       <ul className="text-disc pl-2">
-        <li>React.js</li>
-        <li>Next.js</li>
-        <li>TypeScript</li>
-        <li>JavaScript</li>
-        <li>Tailwind</li>
-        <li>Bootstrap</li>
+        <li>Logo designing</li>
+        <li>Brand designing</li>
+        <li>Brand identity</li>
+        <li>Visual designing</li>
+        <li>Movie posters</li>
+        <li>Broucher, flyer designs</li>
+        <li>Stationary design</li>
       </ul>
     ),
   },
@@ -25,8 +26,7 @@ const Tabdata:any = [
     id: "education",
     content: (
       <ul className="text-disc pl-2" >
-        <li>Becholar in Computer Science</li>
-        <li>ICS for Aspire Group of colleges</li>
+        <li>BS MASS COMMUNICATION</li>
       </ul>
     ),
   },
@@ -35,7 +35,8 @@ const Tabdata:any = [
     id: "certifications",
     content: (
       <ul className="text-disc pl-2">
-        <li>PSDF internship as a frontend developer</li>
+        <li>PNY trainings </li>
+        <li>EVS institute </li>
       </ul>
     ),
   },
@@ -55,21 +56,20 @@ function AboutMe() {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 xl:gap-16 xl:px-16 sm:py-16 py-8 px-4 items-center ">
         <Image
-          src="/images/about-image.png"
+          src="/images/p1.jpg"
           alt="Picture of the author"
           width={500}
           height={500}
+          className="opacity-4"
         />
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="font-bold text-4xl mb-4 ">About Me</h2>
+          <h2 className="font-bold text-4xl mb-4 text-primary ">About Me</h2>
           <p className="text-base lg:text-lg">
             {" "}
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Next, Tailwind, HTML, CSS. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Passionate about transforming ideas into visual experiences, 
+            I am Hira Azhar, a creative graphic designer with a rich background spanning five years. With a keen eye for aesthetics and a knack for effective communication through design, 
+            I specialize in crafting compelling visuals that leave a lasting impact
           </p>
 
           <div className="flex flex-row justify-start mt-8 ">

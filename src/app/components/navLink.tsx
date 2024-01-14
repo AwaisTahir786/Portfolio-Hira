@@ -10,7 +10,7 @@ function Navlink({ title, path }: navbarTypes) {
   return (
     <Link
       href={path}
-      className="block py-0 pl-3 pr-4 text-white sm:text-xl rounded md:0 hover:text-primary-500 mt-3 "
+      className="block py-0 pl-3 pr-4 text-white sm:text-xl rounded md:0 hover:text-primary mt-3 "
     >
       {title}
     </Link>

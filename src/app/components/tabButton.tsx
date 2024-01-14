@@ -20,7 +20,7 @@ function TabButton({ active, children, selectTab }: any) {
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}
-        className="bg-primary-500 mt-2 mr-3 h-1 "
+        className="bg-primary mt-2 mr-3 h-1 "
       ></motion.div>
     </button>
   );

@@ -8,7 +8,7 @@ type projectTagTypes = {
 }
 function ProjectTag({name , onClick , isSelected}:projectTagTypes) {
 
-    const buttonStyles = isSelected ?  "border-primary-500 text-white " : "text-[#ADB7BE] border-slate-600 hover:border-white"
+    const buttonStyles = isSelected ?  "border-primary text-white " : "text-[#ADB7BE] border-slate-600 hover:border-white"
   return (
     <button className={`${buttonStyles} border-2 ml-2 text-xl rounded-full py-3 px-6 mb-3 hover:border-white`}
     

@@ -20,7 +20,7 @@ function Header() {
           className="col-span-8 place-self-center text-left justify-self-start"
         >
           <h1 className="text-4xl mb-4 sm:text-5xl lg:text-7xl px-12 py-4 font-extrabold text-white">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-700">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
               Hello, I am{" "}
             </span>
             <br />
@@ -32,12 +32,12 @@ function Header() {
 
           <div className="px-12">
             <Link href={"#contact"}>
-              <button className="rounded-full w-full sm:w-fit bg-gradient-to-r from-third-500 via-primary-500 to-secondary-500 px-6 py-3 hover:bg-slate-00 text-white mr-4">
+              <button className="rounded-full w-full sm:w-fit bg-gradient-to-r from-third via-primary to-secondary px-6 py-3 hover:bg-slate-00 text-black mr-4">
                 Hire Me
               </button>
             </Link>
             <Link href={"/images/Awais-Resume.pdf"} download="Resume">
-              <button className="rounded-full w-full sm:w-fit bg-gradient-to-r from-third-500 via-primary-500 to-secondary-500 px-1 py-1 hover:bg-slate-800 text-white  mt-3 ">
+              <button className="rounded-full w-full sm:w-fit bg-gradient-to-r from-third via-primary to-secondary px-1 py-1 hover:bg-slate-800 text-white  mt-3 ">
                 <span className=" block rounded-full bg-[#121212] hover:bg-slate-800 px-5 py-2">
                   Download CV{" "}
                 </span>
@@ -54,7 +54,7 @@ function Header() {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] relative lg:w-[400] lg:h-[400]">
             <Image
-              src="/images/profile-pic0.png"
+              src="/images/hero-image.png"
               alt="Picture of the author"
               className="absolute translate transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={500}
