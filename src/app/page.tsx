@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 import AchievementsSection from "./components/achievementsSection";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col  bg-[#121212]">
+    <main className="flex min-h-screen flex-col  bg-[#00000]">
       <div>
         <NavbarUi />
       </div>

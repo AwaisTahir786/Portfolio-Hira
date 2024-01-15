@@ -33,7 +33,7 @@ function NavbarUi() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 border border-[#33353F] right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="fixed top-0 left-0 border border-[#33353F] right-0 z-10 bg-[#000000] bg-opacity-100">
       <div className="text-white flex flex-wrap  container justify-between mx-auto p-5 lg:py-5">
         <Link
           href={"/"}
