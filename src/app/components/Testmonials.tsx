@@ -17,7 +17,7 @@ export const Testmonials = () => {
             className="flex justify-center items-center h-64 bg-primary rounded-lg overflow-hidden">
             <div className="px-8">
                 <p className="text-lg font-medium text-black mb-2 text-start">"The best experience ever"</p>
-                <p className="text-black text-start">Throughout the process, Awais demonstrated professionalism, efficiency, and genuine dedication to crafting a high-quality website for my business. </p>
+                <p className="text-black text-start">Throughout the process, Hira demonstrated professionalism and genuine dedication to crafting a high-quality Brand Identity for my business. </p>
                 <div className="mt-4 flex items-center">
                     <Image className="h-14 w-14 rounded-full mr-4" src="https://pagedone.io/asset/uploads/1696229994.png" alt="Avatar of person" width={500} height={500}/>
 
@@ -33,7 +33,7 @@ export const Testmonials = () => {
             className="flex justify-center items-center h-64 bg-primary rounded-lg overflow-hidden">
             <div className="px-8">
                 <p className="text-lg font-medium text-black mb-2 text-start">"The most exceptional experience."</p>
-                <p className="text-black text-start">From start to finish, the Awais was professional, efficient, and truly dedicated to creating a top-notch website for my business. </p>
+                <p className="text-black text-start">From start to finish, Hira Azhar was professional, efficient, and truly dedicated to creating a top-notch Designs for my business. </p>
                 <div className="mt-4 flex items-center">
                 <Image className="h-14 w-14 rounded-full mr-4" src="https://pagedone.io/asset/uploads/1696229969.png" alt="Avatar of person" width={500} height={500}/>
 
@@ -49,7 +49,7 @@ export const Testmonials = () => {
             className="flex justify-center items-center h-64 bg-primary rounded-lg overflow-hidden">
             <div className="px-8">
                 <p className="text-lg font-medium text-black mb-2 text-start">"The ultimate experience"</p>
-                <p className="text-black text-start">From beginning to end, Awais exhibited professionalism, efficiency, and unwavering dedication to crafting a top-tier website for my business.</p>
+                <p className="text-black text-start">From beginning to end, Hira exhibited professionalism, efficiency, and unwavering dedication to crafting a top-tier Logos for my business.</p>
                 <div className="mt-4 flex items-center">
                     <Image className="h-14 w-14 rounded-full mr-4" src="https://pagedone.io/asset/uploads/1696230027.png" alt="Avatar of person" width={500} height={500}/>
                     <div>

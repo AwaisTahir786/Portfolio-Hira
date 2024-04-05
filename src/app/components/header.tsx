@@ -54,7 +54,7 @@ function Header() {
         >
           <div className="rounded-full bg-[#181818] md:w-[400px] md:h-[400px] sm:w-[300px] sm:h-[300px] h-[200px] w-[200px] relative lg:w-[500] lg:h-[500]">
             <Image
-              src="/images/.png"
+              src="/images/hero-image.png"
               alt="Picture of the author"
               className="absolute translate transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={500}
