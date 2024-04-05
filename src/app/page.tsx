@@ -5,6 +5,8 @@ import ProjetsSection from "./components/projetsSection";
 import EmailSection from "./components/emailSection";
 import Footer from "./components/footer";
 import AchievementsSection from "./components/achievementsSection";
+import { Skills } from "./components/Skills";
+import { Testmonials } from "./components/Testmonials";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col  bg-black">
@@ -15,8 +17,10 @@ export default function Home() {
         <Header />
         <AchievementsSection />
         <AboutMe />
+        <Skills/>
+        <Testmonials/>
         <ProjetsSection/>
-        < EmailSection />
+        <EmailSection />
       </div>
       <Footer />
     </main>

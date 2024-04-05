@@ -16,7 +16,7 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    prefix: "~",
+    prefix: "",
     metric: "Users",
     value: "100,00",
   },
@@ -35,12 +35,12 @@ const achievementsList = [
 function AchievementsSection() {
   return (
     <div className="py-8 px-8 xl:gap-16 xl-px-16 sm:py-16">
-      <div className="sm:border-[#33353F] sm:border py-8 px-16 rounded-md flex sm:flex-row justify-between flex-col ">
+      <div className="border border-primary py-8 px-16 rounded-md flex sm:flex-row justify-between flex-col ">
         {achievementsList.map((achievement, index) => {
           return (
             <div
               key={index}
-              className="text-white flex flex-col justify-center	  mx-4"
+              className="text-white flex flex-col gap-y-2 items-center  justify-center lg:mx-28 md:mx-10 mx-auto"
             >
               <h2 className="text-white text-4xl font-bold flex flex-row ">
                 {achievement.prefix}
@@ -63,9 +63,9 @@ function AchievementsSection() {
                 {achievement.postfix}
               </h2>
 
-              <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
+              <p className="text-[#ADB7BE] text-xl">{achievement.metric}</p>
             </div>
-          );
+          )
         })};
       </div>
     </div>

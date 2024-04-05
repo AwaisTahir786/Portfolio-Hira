@@ -56,7 +56,7 @@ function AboutMe() {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 xl:gap-16 xl:px-16 sm:py-16 py-8 px-4 items-center ">
         <Image
-          src="/images/p1.jpg"
+          src="/images/1.jpeg"
           alt="Picture of the author"
           width={500}
           height={500}

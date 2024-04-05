@@ -10,74 +10,60 @@ import { animate, motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: "1",
-    title: "Portfolio Website",
-    description:
-      "Compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences.",
+    title: "Swift-brand-Identy-Logo",
+    description:"",
     image: "/images/projects/1.png",
-    tags: ["All", "Web"],
-    github: "https://github.com/AwaisTahir786",
-    preview: "https://portfolio-web-app-virid.vercel.app/",
+    tags: ["All", "Logo"],
+    github: "https://www.behance.net/gallery/182285565/Swift-Brand-identity-Logo-Design",
+    preview: "https://www.behance.net/gallery/182285565/Swift-Brand-identity-Logo-Design",
   },
   {
     id: 2,
-    title: "Blog Website",
-    description:
-      "This is a personal or corporate website that regularly offers new and informative articles, usually on a specific topic or range of topics.",
-    image: "/images/projects/two.png",
-    tags: ["All", "Web"],
-    github: "https://github.com/AwaisTahir786",
-    preview: "https://blog-web-application-chi.vercel.app/",
+    title: "Vector-Art-illustration",
+    description:"",
+    image: "/images/projects/2.png",
+    tags: ["All", "Vector"],
+    github: "https://www.behance.net/gallery/180851939/Vector-Art-illustration-design",
+    preview: "https://www.behance.net/gallery/180851939/Vector-Art-illustration-design",
   },
+
   {
     id: 3,
-    title: "E-commerce Application",
-    description:
-      "This website is an online platform where businesses sell products or services directly to customers through the internet.",
+    title: "RITRO-LOGO-DESIGN",
+    description:"",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    github: "https://github.com/AwaisTahir786",
-    preview: "/",
+    tags: ["All", "Logo"],
+    github: "https://www.behance.net/gallery/180780377/RITRO-LOGO-DESIGN",
+    preview: "https://www.behance.net/gallery/180780377/RITRO-LOGO-DESIGN",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description:
-      "My website often provide a user-friendly interface for browsing menus, selecting items, and customizing orders.",
+    title: "Tecnicas-Reunidas-logo-design",
+    description: "",
     image: "/images/projects/4.png",
-    tags: ["All", "Mobile"],
+    tags: ["All", "Logo"],
     github: "https://github.com/AwaisTahir786",
-    preview: "/",
+    preview: "https://www.instagram.com/p/CyBfeyoN0vN/?img_index=1",
   },
   {
     id: 5,
-    title: "Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Vector-Art-illustration",
+    description:"",
     image: "/images/projects/5.png",
-    tags: ["All", "Web"],
+
+    tags: ["All", "Vector"],
     github: "https://github.com/AwaisTahir786",
-    preview: "/",
+    preview: "https://www.behance.net/gallery/180850927/Vector-Art-Illustration-Design?tracking_source=project_owner_other_projects",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description:
-      "This site provide a full stack road map about web developers.",
+    title: "Greaveso-Logo-Design",
+    description:"",
     image: "/images/projects/6.png",
 
-    tags: ["All", "Web"],
+    tags: ["All", "Logo"],
     github: "https://github.com/AwaisTahir786",
-    preview: "/",
-  },
-  {
-    id: 7,
-    title: "To-Do App",
-    description:
-      "List of tasks you need to complete or things that you want to do",
-    image: "/images/projects/todo.png",
-
-    tags: ["All", "Mobile"],
-    github: "https://github.com/AwaisTahir786",
-    preview: "https://to-do-app-one-beta.vercel.app/",
+    preview: "https://www.behance.net/gallery/180835289/Greaveso-Logo-Design",
   },
 ];
 
@@ -101,22 +87,22 @@ function ProjetsSection() {
 
   return (
     <section id="projects">
-      <h2 className="text-white text-center font-bold text-4xl mt-4 mb-8 md:mb-16 ">
+      <h2 className="text-[#39FF14] text-center font-bold text-5xl mt-4 mb-8 md:mb-16 ">
         Projects
       </h2>
 
       <div className="flex flex-row justify-center text-white ">
         <ProjectTag name="All" isSelected={tag === "All"} onClick={handleTag} />
-        <ProjectTag name="Web" isSelected={tag === "Web"} onClick={handleTag} />
+        <ProjectTag name="Logo" isSelected={tag === "Logo"} onClick={handleTag} />
         <ProjectTag
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Vector"
+          isSelected={tag === "Vector"}
           onClick={handleTag}
         />
       </div>
       <ul
         ref={ref}
-        className="grid md:grid-cols-3 gap-4 sm:grid-cols-2 grid-cols-1  "
+        className="grid md:grid-cols-2 mt-10 gap-4 sm:grid-cols-2 grid-cols-1 lg:px-20   "
       >
         {filteredProjects.map((project, index) => (
           <motion.li

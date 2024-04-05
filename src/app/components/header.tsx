@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import React from "react";
 import Image from "next/image";
@@ -19,15 +20,14 @@ function Header() {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-left justify-self-start"
         >
-          <h1 className="text-4xl mb-4 sm:text-5xl lg:text-7xl px-12 py-4 font-extrabold text-white">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              Hello, I am{" "}
-            </span>
-            <br />
-            <Animation />
+          <h1 className="text-4xl mb-4 sm:text-5xl lg:text-5xl px-12 py-4 font-extrabold text-white">
+          <span className="text-primary">
+              Hi, I'm{" "} <span className="text-primary">Hira</span> 
+            </span> <br />
+            <Animation/>
           </h1>
-          <p className="lg:text-xl text-lg text-[#ADB7BE] px-12 py-4 mb-6">
-            Make it work, make it right, make it fast !
+          <p className="lg:text-xl text-lg text-[white] px-12 py-4 ">
+            Make it work, make it right, make it fast <span className="text-primary"> !</span>
           </p>
 
           <div className="px-12">
@@ -52,7 +52,7 @@ function Header() {
           transition={{ duration: 0.5 }}
           className="col-span-4 px-12 place-self-center mt-4"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] relative lg:w-[400] lg:h-[400]">
+          <div className="rounded-full bg-[#181818] md:w-[400px] md:h-[400px] sm:w-[300px] sm:h-[300px] h-[200px] w-[200px] relative lg:w-[500] lg:h-[500]">
             <Image
               src="/images/hero-image.png"
               alt="Picture of the author"

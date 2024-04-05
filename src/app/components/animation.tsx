@@ -5,13 +5,13 @@ const Animation = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Hira',
+        'Logo Designer',
         1000, 
         'Brand Designer',
         1000,
-        'UI/UX Designer',
+        '',
         1000,
-        'Web Designer',
+        'Logo Designer',
         1000
       ]}
       wrapper="span"
